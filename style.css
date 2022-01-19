@@ -1,0 +1,57 @@
+body {
+    background-color: lightblue;
+  }
+  
+  h1 {
+    color: purple;
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+  }
+
+  .ivaka
+  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+  }
+  p{
+    font:bold;
+  }
+  .github
+  {
+    width: 100%;
+  }
+  .basketball
+  {
+    width: 40%;
+  }
+  .volleyball
+  {
+    width: 50%;   
+  }
+  .jjba
+  {
+    width: 100%;
+  }
+  .maska
+  {
+    width: 90%;
+  }
+  .caki
+  {
+    width: 90%;
+  }
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
